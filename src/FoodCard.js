@@ -5,9 +5,11 @@ const FoodCard = ({name, description, img}) => {
 		<div className = "food-items">
 		 <div className = "container-fluid">
 		   <div className="row" >
-		    <div className="col-12">
+		    <div className="col">
 		<h1 className="food-name text-center"> {name}</h1>
-		<img className ="img-fluid" src = {img} width = "300px" height = "300px" alt="foods"/>
+		<div className="img-container">
+		<img className ="img-fluid" src = {img} alt="foods"/>
+		</div>	
 			</div>
 		<p className="food-description">{description}</p>
 		  </div>

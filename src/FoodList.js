@@ -6,7 +6,7 @@ const FoodList = ({Foods}) => {
 		<div className="container-fluid">
 		<div className="row">
 		<div className ="col-12" >
-		<h1 className = "text-center">Menu</h1>
+		<h1 className = "menu-text text-center">Menu</h1>
 		</div>
 		{
 			Foods.map((food, i) => {

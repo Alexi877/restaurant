@@ -39,7 +39,13 @@ body{
   margin-top: 250px;
   color: #bc9c78;
   border-style: solid;
-  border-width: 5px;
+  border-width: .1425em;
+
+}
+.banner-text h1{
+  font-size: 3.25vw;
+  margin-top: .2em;
+  font-family: 'Roboto Mono', monospace;
 }
 .banner:hover{
   opacity: 1;
@@ -75,20 +81,47 @@ body{
   background-repeat:no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Roboto Mono', monospace;
 }
 .about-main{
   background-image:url("https://s7d2.scene7.com/is/image/ritzcarlton/RCHERZL_00054_conversion?$XlargeViewport100pct$"),linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65));
   background-blend-mode:overlay;
-  height: 665px;
+  height: 785px;
   background-repeat:no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: 'Roboto Mono', monospace;
+}
+.about-other{
+  font-family: 'Shadows Into Light', cursive;
 }
 .about-main p{
-  margin-left: 25%;
-  margin-right:25%;
+  margin-left: 12.5%;
+  margin-right:12.5%;
+  font-size:18px;
 
 }
 .food-items img{
 border-radius:.25em;
+}
+.img-container{
+position:relative;
+width:100%;
+max-width: 300px;
+}
+.img-container img{
+display:block;
+width:100%;
+height: auto;
+}
+.food-description{
+  width:90%;
+  margin-left: 1em;
+  font-family: 'Shadows Into Light', cursive;
+}
+.menu-text{
+  font-family: 'Roboto Mono', monospace;
+}
+.food-name{
+  font-family: 'Roboto Mono', monospace;
 }

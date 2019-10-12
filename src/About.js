@@ -4,6 +4,7 @@ const About = () =>{
 	return(
 		<div className="about-main text-center">
 		<h1>About us</h1>
+		 <div className="about-other">
 		<h4>Our purpose</h4>
 		<p>We're a Salvadorian Restaurant with a menu 
 		made to delight our customers, which is flavorful 
@@ -16,6 +17,7 @@ const About = () =>{
 		food for a living. We have different types of food available for
 		our customers to choose from.
 		</p>
+		 </div>
 		</div>
 	)
 }
