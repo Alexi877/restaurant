@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import FoodDisplay from './FoodDisplay';
 import FoodList from './FoodList';
-import Foods from './data.js';
+import Foods from '../data.js';
 
 const Home = () =>{
 	return(

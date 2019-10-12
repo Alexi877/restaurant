@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
-import Navbar from './Navbar'
+import Navbar from './Components/Navbar'
 import {Switch, Route} from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
+import Home from './Components/Home';
+import About from './Components/About';
+import Contact from './Components/Contact';
 
 class App extends Component {
 
